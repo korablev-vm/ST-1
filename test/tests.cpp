@@ -15,6 +15,10 @@ TEST(checkPrimeTests, twoIsPrime) {
   EXPECT_TRUE(checkPrime(2));
 }
 
+TEST(checkPrimeTests, threeIsPrime) {
+  EXPECT_TRUE(checkPrime(3));
+}
+
 TEST(checkPrimeTests, twentyNineIsPrime) {
   EXPECT_TRUE(checkPrime(29));
 }
